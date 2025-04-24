@@ -22,8 +22,8 @@ jobs:
           polaris_assessment_types: "SCA"
           
           ### SCANNING: Optional fields
-          polaris_application_name: "JB-WebGoat"
-          polaris_project_name: "JB-WebGoat-Main"
+          polaris_application_name: "JB-WebGoat(1)"
+          polaris_project_name: "JB-WebGoat-Main(1)"
           
           ### PULL REQUEST COMMENTS: Uncomment below to enable
           polaris_prComment_enabled: true 
