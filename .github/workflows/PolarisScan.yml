@@ -26,7 +26,7 @@ jobs:
           polaris_project_name: "JB-WebGoat-Main(1)"
           
           ### PULL REQUEST COMMENTS: Uncomment below to enable
-          polaris_prComment_enabled: true 
+          polaris_prComment_enabled: "true"
           github_token: ${{ secrets.GH_TOKEN }} # Required when PR comments is enabled
 
           ### SARIF report parameters
