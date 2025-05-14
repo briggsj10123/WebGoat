@@ -39,6 +39,11 @@ jobs:
           ### SARIF report parameters
           #polaris_reports_sarif_create: true
           #polaris_upload_sarif_report: true
+
+          ###Coverity Build Commands
+          coverity_build_command: mvn -B install -DskipTests
+          coverity_clean_command: mvn -B clean
+          coverity_args: -o analyze.aggressiveness-level=high
           
           ### Signature scan
           #polaris_test_sca_type: "SCA-SIGNATURE"
