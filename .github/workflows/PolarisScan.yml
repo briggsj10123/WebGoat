@@ -45,7 +45,8 @@ jobs:
           coverity_clean_command: mvn -B clean
           coverity_args: -o analyze.aggressiveness-level=high
           
-          ### Signature scan
+          ### Black Duck Commands
+          #Signature scan
           #polaris_test_sca_type: "SCA-SIGNATURE"
           
           ### Mark build status if policy violating issues are found
